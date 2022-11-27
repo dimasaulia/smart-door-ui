@@ -1,0 +1,25 @@
+.card--pair-id {
+    width: 60%;
+}
+
+.btn-pair {
+    transition: transform ease-in;
+}
+
+.btn-pair:active {
+    transform: scale(1.1);
+}
+
+.btn-pair:hover {
+    background: rgb(var(--color-blue-4)) !important;
+    color: rgb(var(--color-blue-2)) !important;
+}
+
+#username {
+    border: 3px solid rgb(var(--color-blue-4));
+}
+
+#username:active,
+#username:focus {
+    background: rgb(var(--color-neutral-5)) !important;
+}
